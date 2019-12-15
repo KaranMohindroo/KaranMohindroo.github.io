@@ -1,2 +1,1 @@
-# KaranMohindroo.github.io
-Interactive Resume
+# karanmohindroo.github.io
