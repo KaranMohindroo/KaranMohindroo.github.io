@@ -1074,11 +1074,11 @@ function update() {
 // Movement speed control
     if (forwardButtonPressed()) {
         inst_text.setText("");
-        hero.x += 105;
+        hero.x += 25;
         //console.log("Pointer:"+game.input.activePointer.x);
         hero.animations.play('run', 15, true);
     } else if (backButtonPressed()) {
-        hero.x -= 15;
+        hero.x -= 25;
     } else {
         hero.animations.stop('run');
     }
