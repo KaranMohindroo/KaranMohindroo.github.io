@@ -1505,7 +1505,7 @@ function openResume() {
 }
 
 function openGmail() {
-    var win = window.open("mailto:karanmohindroo14@gmail.com");
+    var win = window.open(gmail_url);
     win.focus();
 }
 
